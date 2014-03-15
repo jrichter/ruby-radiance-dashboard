@@ -1,0 +1,1064 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'keybase-installer' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'keybase-installer', null ]
+6 verbose cache add name=undefined spec="keybase-installer" args=["keybase-installer",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'keybase-installer',
+7 verbose parsed url   path: 'keybase-installer',
+7 verbose parsed url   href: 'keybase-installer' }
+8 silly lockFile ffdc04a0-keybase-installer keybase-installer
+9 verbose lock keybase-installer /home/justin/.npm/ffdc04a0-keybase-installer.lock
+10 silly lockFile ffdc04a0-keybase-installer keybase-installer
+11 silly lockFile ffdc04a0-keybase-installer keybase-installer
+12 verbose addNamed [ 'keybase-installer', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 248ae426-keybase-installer keybase-installer@
+15 verbose lock keybase-installer@ /home/justin/.npm/248ae426-keybase-installer.lock
+16 silly addNameRange { name: 'keybase-installer', range: '*', hasData: false }
+17 verbose url raw keybase-installer
+18 verbose url resolving [ 'https://registry.npmjs.org/', './keybase-installer' ]
+19 verbose url resolved https://registry.npmjs.org/keybase-installer
+20 info trying registry request attempt 1 at 20:02:42
+21 http GET https://registry.npmjs.org/keybase-installer
+22 http 200 https://registry.npmjs.org/keybase-installer
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Thu, 06 Mar 2014 02:02:42 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+23 silly registry.get     etag: '"A75WEG1Z5NQYQOJ6B2Y4R629M"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     'content-length': '25821',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     age: '721',
+23 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-d64-DAL',
+23 silly registry.get     'x-cache': 'MISS, MISS',
+23 silly registry.get     'x-cache-hits': '0, 0',
+23 silly registry.get     'x-timer': 'S1394071362.842666149,VS0,VS236,VE254,VE53',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'keybase-installer', range: '*', hasData: true }
+25 silly addNameRange versions [ 'keybase-installer',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.0.5',
+25 silly addNameRange     '0.0.6',
+25 silly addNameRange     '0.0.7',
+25 silly addNameRange     '0.0.8',
+25 silly addNameRange     '0.0.9',
+25 silly addNameRange     '0.0.10',
+25 silly addNameRange     '0.0.11',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.8' ] ]
+26 verbose addNamed [ 'keybase-installer', '0.1.8' ]
+27 verbose addNamed [ '0.1.8', '0.1.8' ]
+28 silly lockFile a63e7e9c-keybase-installer-0-1-8 keybase-installer@0.1.8
+29 verbose lock keybase-installer@0.1.8 /home/justin/.npm/a63e7e9c-keybase-installer-0-1-8.lock
+30 silly lockFile a227ed14-ller-keybase-installer-0-1-8-tgz https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz
+31 verbose lock https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz /home/justin/.npm/a227ed14-ller-keybase-installer-0-1-8-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz',
+32 verbose addRemoteTarball   '984a7bb742764f7f21da4cf7f20c2323c8a75be7' ]
+33 info retry fetch attempt 1 at 20:02:42
+34 verbose fetch to= /home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz
+35 http GET https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz
+36 http 200 https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz
+37 verbose tar unpack /home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz
+38 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+39 verbose lock tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package /home/justin/.npm/87b885c6-2948-0-14489885815419257-package.lock
+40 silly lockFile a726aae3-2948-0-14489885815419257-tmp-tgz tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz
+41 verbose lock tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz /home/justin/.npm/a726aae3-2948-0-14489885815419257-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry src/log.iced
+48 silly gunzTarPerm extractEntry src/base.iced
+49 silly gunzTarPerm extractEntry src/constants.iced
+50 silly gunzTarPerm extractEntry src/get_index.iced
+51 silly gunzTarPerm extractEntry src/installer.iced
+52 silly gunzTarPerm extractEntry src/key_install.iced
+53 silly gunzTarPerm extractEntry src/key_setup.iced
+54 silly gunzTarPerm extractEntry src/key_upgrade.iced
+55 silly gunzTarPerm extractEntry src/config.iced
+56 silly gunzTarPerm extractEntry src/main.iced
+57 silly gunzTarPerm extractEntry src/npm.iced
+58 silly gunzTarPerm extractEntry src/package.iced
+59 silly gunzTarPerm extractEntry src/request.iced
+60 silly gunzTarPerm extractEntry src/software_upgrade.iced
+61 silly gunzTarPerm extractEntry src/top.iced
+62 silly gunzTarPerm extractEntry src/util.iced
+63 silly gunzTarPerm extractEntry bin/main.js
+64 silly gunzTarPerm extractEntry CHANGELOG.md
+65 silly gunzTarPerm extractEntry lib/base.js
+66 silly gunzTarPerm extractEntry lib/installer.js
+67 silly gunzTarPerm extractEntry lib/key_install.js
+68 silly gunzTarPerm extractEntry lib/key_setup.js
+69 silly gunzTarPerm extractEntry lib/key_upgrade.js
+70 silly gunzTarPerm extractEntry lib/get_index.js
+71 silly gunzTarPerm extractEntry lib/main.js
+72 silly gunzTarPerm extractEntry lib/npm.js
+73 silly gunzTarPerm extractEntry lib/package.js
+74 silly gunzTarPerm extractEntry lib/request.js
+75 silly gunzTarPerm extractEntry lib/software_upgrade.js
+76 silly gunzTarPerm extractEntry lib/constants.js
+77 silly gunzTarPerm extractEntry lib/top.js
+78 silly gunzTarPerm extractEntry lib/config.js
+79 silly gunzTarPerm extractEntry lib/util.js
+80 silly gunzTarPerm extractEntry lib/log.js
+81 silly gunzTarPerm extractEntry sandbox/gen-keybase-v1.batch
+82 silly gunzTarPerm extractEntry sandbox/gen-keybase-v2.batch
+83 silly gunzTarPerm extractEntry sandbox/gpg.sh
+84 silly gunzTarPerm extractEntry sandbox/gpg2.sh
+85 silly gunzTarPerm extractEntry sandbox/howto.md
+86 silly gunzTarPerm extractEntry sandbox/m1.sig
+87 silly gunzTarPerm extractEntry sandbox/ring1/pub
+88 silly gunzTarPerm extractEntry sandbox/ring1/pub~
+89 silly gunzTarPerm extractEntry sandbox/ring1/sec
+90 silly gunzTarPerm extractEntry sandbox/ring1/trust
+91 silly gunzTarPerm extractEntry sandbox/ring2/pub
+92 silly gunzTarPerm extractEntry sandbox/ring2/pub~
+93 silly gunzTarPerm extractEntry sandbox/ring2/sec
+94 silly gunzTarPerm extractEntry sandbox/ring2/trust
+95 silly gunzTarPerm extractEntry sandbox/v1.key
+96 silly gunzTarPerm extractEntry sandbox/v1.revoke
+97 silly gunzTarPerm extractEntry Makefile
+98 silly gunzTarPerm extractEntry json/keyset.json
+99 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/package.json
+100 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/.npmignore
+101 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/README.md
+102 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/LICENSE
+103 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/CHANGELOG.md
+104 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/Makefile
+105 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/colgrep.js
+106 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/err.js
+107 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/gpg.js
+108 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/index.js
+109 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/keyring.js
+110 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/main.js
+111 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/parse.js
+112 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/stream.js
+113 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/colgrep.iced
+114 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/err.iced
+115 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/gpg.iced
+116 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/index.iced
+117 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/keyring.iced
+118 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/main.iced
+119 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/parse.iced
+120 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/colgrep.iced
+121 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/gpg.iced
+122 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/index.iced
+123 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/keyring.iced
+124 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/parse.iced
+125 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/run.iced
+126 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/package.json
+127 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/.npmignore
+128 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/README
+129 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/LICENSE
+130 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/register.js
+131 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/UPDATING.md
+132 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/CNAME
+133 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/iced.md
+134 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/browser.js
+135 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/helpers.js
+136 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/iced.js
+137 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/icedlib.js
+138 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/grammar.js
+139 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/lexer.js
+140 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/nodes.js
+141 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/optparse.js
+142 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/parser.js
+143 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/register.js
+144 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/extensions.js
+145 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/repl.js
+146 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/command.js
+147 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/rewriter.js
+148 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/coffee-script.js
+149 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/scope.js
+150 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/cake.js
+151 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/sourcemap.js
+152 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/index.js
+153 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/CONTRIBUTING.md
+154 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/bin/cake
+155 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/bin/coffee
+156 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/package.json
+157 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/.npmignore
+158 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/README
+159 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/LICENSE
+160 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/docco.js
+161 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/bin/docco
+162 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/docco.css
+163 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/docco.jst
+164 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.eot
+165 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.eot
+166 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.woff
+167 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.eot
+168 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.ttf
+169 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.woff
+170 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.ttf
+171 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.ttf
+172 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.woff
+173 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.eot
+174 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.ttf
+175 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.woff
+176 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/images/gray.png
+177 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/stylesheets/normalize.css
+178 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/languages.json
+179 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/docco.css
+180 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/docco.jst
+181 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.eot
+182 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.eot
+183 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.woff
+184 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.eot
+185 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.ttf
+186 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.woff
+187 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.ttf
+188 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.ttf
+189 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.woff
+190 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.eot
+191 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.ttf
+192 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.woff
+193 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/images/gray.png
+194 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/stylesheets/normalize.css
+195 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/docco.css
+196 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/docco.jst
+197 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.eot
+198 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.ttf
+199 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.woff
+200 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.eot
+201 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.ttf
+202 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.woff
+203 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.eot
+204 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.ttf
+205 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.woff
+206 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/stylesheets/normalize.css
+207 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/c/c.html
+208 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/c/docco.css
+209 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/coffee-script/coffee-script.html
+210 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/coffee-script/docco.css
+211 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/javascript/docco.css
+212 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/javascript/javascript.html
+213 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/python/docco.css
+214 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/python/python.html
+215 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/ruby/docco.css
+216 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/ruby/ruby.html
+217 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/tex/docco.css
+218 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/tex/tex.html
+219 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_css/pagelet.css
+220 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_css/tests.html
+221 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_jst/docco.css
+222 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_jst/tests.html
+223 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/package.json
+224 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/README.md
+225 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/LICENSE
+226 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/highlight.js
+227 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/index.js
+228 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/1c.js
+229 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/java.js
+230 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/javascript.js
+231 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/json.js
+232 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ini.js
+233 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lisp.js
+234 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/livecodeserver.js
+235 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lua.js
+236 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/makefile.js
+237 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/markdown.js
+238 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/http.js
+239 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mathematica.js
+240 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/haskell.js
+241 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/matlab.js
+242 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/handlebars.js
+243 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mel.js
+244 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/haml.js
+245 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mizar.js
+246 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/go.js
+247 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/nginx.js
+248 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/glsl.js
+249 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/objectivec.js
+250 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/fsharp.js
+251 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ocaml.js
+252 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/fix.js
+253 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/oxygene.js
+254 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/erlang.js
+255 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/parser3.js
+256 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/erlang-repl.js
+257 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/perl.js
+258 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/dos.js
+259 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/php.js
+260 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/django.js
+261 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/profile.js
+262 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/diff.js
+263 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/python.js
+264 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/delphi.js
+265 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/r.js
+266 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/d.js
+267 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rib.js
+268 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/css.js
+269 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rsl.js
+270 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cs.js
+271 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ruby.js
+272 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cpp.js
+273 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ruleslanguage.js
+274 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/coffeescript.js
+275 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rust.js
+276 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cmake.js
+277 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scala.js
+278 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/clojure.js
+279 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scilab.js
+280 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/brainfuck.js
+281 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scss.js
+282 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/bash.js
+283 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/smalltalk.js
+284 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/axapta.js
+285 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/sql.js
+286 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/avrasm.js
+287 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/tex.js
+288 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/autohotkey.js
+289 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vala.js
+290 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/asciidoc.js
+291 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vbnet.js
+292 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/applescript.js
+293 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vbscript.js
+294 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/apache.js
+295 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vhdl.js
+296 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/actionscript.js
+297 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/xml.js
+298 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lasso.js
+299 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/package.json
+300 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/index.js
+301 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/Readme.md
+302 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/package.json
+303 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/.npmignore
+304 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/README.md
+305 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/LICENSE
+306 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/CHANGELOG.md
+307 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/copy.js
+308 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/create.js
+309 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/index.js
+310 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/json.js
+311 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/mkdir.js
+312 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/output.js
+313 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/remove.js
+314 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/package.json
+315 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/.npmignore
+316 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/README.md
+317 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/LICENSE
+318 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/CHANGELOG.md
+319 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/lib/jsonfile.js
+320 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/package.json
+321 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/.npmignore
+322 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/README.md
+323 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/.travis.yml
+324 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/LICENSE.md
+325 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/bin/ncp
+326 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/lib/ncp.js
+327 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/ncp-test.js
+328 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/a
+329 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/b
+330 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/c
+331 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/d
+332 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/e
+333 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/f
+334 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/a
+335 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/b
+336 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/package.json
+337 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/README.md
+338 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/LICENSE
+339 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/bin.js
+340 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/rimraf.js
+341 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/AUTHORS
+342 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/test-async.js
+343 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/test-sync.js
+344 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/run.sh
+345 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/setup.sh
+346 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/package.json
+347 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/.npmignore
+348 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/README.md
+349 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/LICENSE
+350 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/index.js
+351 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/Makefile
+352 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/.travis.yml
+353 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/component.json
+354 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/lib/marked.js
+355 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/man/marked.1
+356 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/bin/marked
+357 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/package.json
+358 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/README.md
+359 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/LICENSE
+360 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/underscore-min.js
+361 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/underscore.js
+362 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/package.json
+363 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/.npmignore
+364 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/LICENSE
+365 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/index.js
+366 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/.travis.yml
+367 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/examples/pow.js
+368 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/readme.markdown
+369 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/chmod.js
+370 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/perm.js
+371 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/perm_sync.js
+372 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/race.js
+373 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/mkdirp.js
+374 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/return.js
+375 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/return_sync.js
+376 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/root.js
+377 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/sync.js
+378 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/umask.js
+379 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/clobber.js
+380 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/umask_sync.js
+381 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/rel.js
+382 silly gunzTarPerm extractEntry node_modules/iced-data-structures/package.json
+383 silly gunzTarPerm extractEntry node_modules/iced-data-structures/.npmignore
+384 silly gunzTarPerm extractEntry node_modules/iced-data-structures/README.md
+385 silly gunzTarPerm extractEntry node_modules/iced-data-structures/LICENSE
+386 silly gunzTarPerm extractEntry node_modules/iced-data-structures/Makefile
+387 silly gunzTarPerm extractEntry node_modules/iced-data-structures/lib/index.js
+388 silly gunzTarPerm extractEntry node_modules/iced-data-structures/lib/list.js
+389 silly gunzTarPerm extractEntry node_modules/iced-data-structures/src/index.iced
+390 silly gunzTarPerm extractEntry node_modules/iced-data-structures/src/list.iced
+391 silly gunzTarPerm extractEntry node_modules/iced-error/package.json
+392 silly gunzTarPerm extractEntry node_modules/iced-error/.npmignore
+393 silly gunzTarPerm extractEntry node_modules/iced-error/README.md
+394 silly gunzTarPerm extractEntry node_modules/iced-error/index.js
+395 silly gunzTarPerm extractEntry node_modules/iced-error/Makefile
+396 silly gunzTarPerm extractEntry node_modules/iced-error/index.iced
+397 silly gunzTarPerm extractEntry node_modules/iced-error/index.map
+398 silly gunzTarPerm extractEntry node_modules/iced-logger/package.json
+399 silly gunzTarPerm extractEntry node_modules/iced-logger/.npmignore
+400 silly gunzTarPerm extractEntry node_modules/iced-logger/README.md
+401 silly gunzTarPerm extractEntry node_modules/iced-logger/LICENSE
+402 silly gunzTarPerm extractEntry node_modules/iced-logger/index.js
+403 silly gunzTarPerm extractEntry node_modules/iced-logger/Makefile
+404 silly gunzTarPerm extractEntry node_modules/iced-logger/index.iced
+405 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/package.json
+406 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/colors.js
+407 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/example.js
+408 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/test.js
+409 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/MIT-LICENSE.txt
+410 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/ReadMe.md
+411 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/example.html
+412 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/themes/winston-dark.js
+413 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/themes/winston-light.js
+414 silly gunzTarPerm extractEntry node_modules/iced-spawn/package.json
+415 silly gunzTarPerm extractEntry node_modules/iced-spawn/.npmignore
+416 silly gunzTarPerm extractEntry node_modules/iced-spawn/README.md
+417 silly gunzTarPerm extractEntry node_modules/iced-spawn/LICENSE
+418 silly gunzTarPerm extractEntry node_modules/iced-spawn/CHANGELOG.md
+419 silly gunzTarPerm extractEntry node_modules/iced-spawn/Makefile
+420 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/cmd.js
+421 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/main.js
+422 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/stream.js
+423 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/cmd.iced
+424 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/main.iced
+425 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/stream.iced
+426 silly gunzTarPerm extractEntry node_modules/iced-spawn/test/files/0_basics.iced
+427 silly gunzTarPerm extractEntry node_modules/iced-spawn/test/run.iced
+428 silly gunzTarPerm extractEntry node_modules/iced-utils/package.json
+429 silly gunzTarPerm extractEntry node_modules/iced-utils/.npmignore
+430 silly gunzTarPerm extractEntry node_modules/iced-utils/README.md
+431 silly gunzTarPerm extractEntry node_modules/iced-utils/Makefile
+432 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/fs.js
+433 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/getopt.js
+434 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/lock.js
+435 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/main.js
+436 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/spawn.js
+437 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/util.js
+438 silly gunzTarPerm extractEntry node_modules/iced-utils/src/fs.iced
+439 silly gunzTarPerm extractEntry node_modules/iced-utils/src/getopt.iced
+440 silly gunzTarPerm extractEntry node_modules/iced-utils/src/lock.iced
+441 silly gunzTarPerm extractEntry node_modules/iced-utils/src/main.iced
+442 silly gunzTarPerm extractEntry node_modules/iced-utils/src/spawn.iced
+443 silly gunzTarPerm extractEntry node_modules/iced-utils/src/util.iced
+444 silly gunzTarPerm extractEntry node_modules/pgp-utils/package.json
+445 silly gunzTarPerm extractEntry node_modules/pgp-utils/.npmignore
+446 silly gunzTarPerm extractEntry node_modules/pgp-utils/README.md
+447 silly gunzTarPerm extractEntry node_modules/pgp-utils/LICENSE
+448 silly gunzTarPerm extractEntry node_modules/pgp-utils/Makefile
+449 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/armor.js
+450 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/main.js
+451 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/userid.js
+452 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/util.js
+453 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/armor.iced
+454 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/main.iced
+455 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/userid.iced
+456 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/util.iced
+457 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/t1.iced
+458 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/t2.iced
+459 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/userid.iced
+460 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/run.iced
+461 silly gunzTarPerm extractEntry node_modules/pgp-utils/x
+462 silly gunzTarPerm extractEntry node_modules/pgp-utils/y
+463 silly gunzTarPerm extractEntry node_modules/progress/package.json
+464 silly gunzTarPerm extractEntry node_modules/progress/.npmignore
+465 silly gunzTarPerm extractEntry node_modules/progress/index.js
+466 silly gunzTarPerm extractEntry node_modules/progress/History.md
+467 silly gunzTarPerm extractEntry node_modules/progress/Makefile
+468 silly gunzTarPerm extractEntry node_modules/progress/Readme.md
+469 silly gunzTarPerm extractEntry node_modules/progress/lib/node-progress.js
+470 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+471 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+472 silly lockFile a726aae3-2948-0-14489885815419257-tmp-tgz tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz
+473 silly lockFile a726aae3-2948-0-14489885815419257-tmp-tgz tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/tmp.tgz
+474 verbose tar pack [ '/home/justin/.npm/keybase-installer/0.1.8/package.tgz',
+474 verbose tar pack   '/home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package' ]
+475 verbose tarball /home/justin/.npm/keybase-installer/0.1.8/package.tgz
+476 verbose folder /home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+477 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+478 verbose lock tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package /home/justin/.npm/87b885c6-2948-0-14489885815419257-package.lock
+479 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+480 verbose lock tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz /home/justin/.npm/63aeff4c-base-installer-0-1-8-package-tgz.lock
+481 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+482 silly lockFile 87b885c6-2948-0-14489885815419257-package tar:///home/justin/tmp/npm-22073-cQ9El1lN/1394071362948-0.14489885815419257/package
+483 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+484 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+485 silly lockFile a437d6c0--keybase-installer-0-1-8-package /home/justin/.npm/keybase-installer/0.1.8/package
+486 verbose lock /home/justin/.npm/keybase-installer/0.1.8/package /home/justin/.npm/a437d6c0--keybase-installer-0-1-8-package.lock
+487 silly lockFile a437d6c0--keybase-installer-0-1-8-package /home/justin/.npm/keybase-installer/0.1.8/package
+488 silly lockFile a437d6c0--keybase-installer-0-1-8-package /home/justin/.npm/keybase-installer/0.1.8/package
+489 verbose tar unpack /home/justin/.npm/keybase-installer/0.1.8/package.tgz
+490 silly lockFile 6f51981b--keybase-installer-0-1-8-package tar:///home/justin/.npm/keybase-installer/0.1.8/package
+491 verbose lock tar:///home/justin/.npm/keybase-installer/0.1.8/package /home/justin/.npm/6f51981b--keybase-installer-0-1-8-package.lock
+492 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+493 verbose lock tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz /home/justin/.npm/63aeff4c-base-installer-0-1-8-package-tgz.lock
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 silly gunzTarPerm extractEntry package.json
+496 silly gunzTarPerm extractEntry .npmignore
+497 silly gunzTarPerm extractEntry README.md
+498 silly gunzTarPerm extractEntry LICENSE
+499 silly gunzTarPerm extractEntry src/log.iced
+500 silly gunzTarPerm extractEntry src/base.iced
+501 silly gunzTarPerm extractEntry src/constants.iced
+502 silly gunzTarPerm extractEntry src/get_index.iced
+503 silly gunzTarPerm extractEntry src/installer.iced
+504 silly gunzTarPerm extractEntry src/key_install.iced
+505 silly gunzTarPerm extractEntry src/key_setup.iced
+506 silly gunzTarPerm extractEntry src/key_upgrade.iced
+507 silly gunzTarPerm extractEntry src/config.iced
+508 silly gunzTarPerm extractEntry src/main.iced
+509 silly gunzTarPerm extractEntry src/npm.iced
+510 silly gunzTarPerm extractEntry src/package.iced
+511 silly gunzTarPerm extractEntry src/request.iced
+512 silly gunzTarPerm extractEntry src/software_upgrade.iced
+513 silly gunzTarPerm extractEntry src/top.iced
+514 silly gunzTarPerm extractEntry src/util.iced
+515 silly gunzTarPerm extractEntry bin/main.js
+516 silly gunzTarPerm extractEntry CHANGELOG.md
+517 silly gunzTarPerm extractEntry lib/base.js
+518 silly gunzTarPerm extractEntry lib/installer.js
+519 silly gunzTarPerm extractEntry lib/key_install.js
+520 silly gunzTarPerm extractEntry lib/key_setup.js
+521 silly gunzTarPerm extractEntry lib/key_upgrade.js
+522 silly gunzTarPerm extractEntry lib/get_index.js
+523 silly gunzTarPerm extractEntry lib/main.js
+524 silly gunzTarPerm extractEntry lib/npm.js
+525 silly gunzTarPerm extractEntry lib/package.js
+526 silly gunzTarPerm extractEntry lib/request.js
+527 silly gunzTarPerm extractEntry lib/software_upgrade.js
+528 silly gunzTarPerm extractEntry lib/constants.js
+529 silly gunzTarPerm extractEntry lib/top.js
+530 silly gunzTarPerm extractEntry lib/config.js
+531 silly gunzTarPerm extractEntry lib/util.js
+532 silly gunzTarPerm extractEntry lib/log.js
+533 silly gunzTarPerm extractEntry sandbox/gen-keybase-v1.batch
+534 silly gunzTarPerm extractEntry sandbox/gen-keybase-v2.batch
+535 silly gunzTarPerm extractEntry sandbox/gpg.sh
+536 silly gunzTarPerm extractEntry sandbox/gpg2.sh
+537 silly gunzTarPerm extractEntry sandbox/howto.md
+538 silly gunzTarPerm extractEntry sandbox/m1.sig
+539 silly gunzTarPerm extractEntry sandbox/ring1/pub
+540 silly gunzTarPerm extractEntry sandbox/ring1/pub~
+541 silly gunzTarPerm extractEntry sandbox/ring1/sec
+542 silly gunzTarPerm extractEntry sandbox/ring1/trust
+543 silly gunzTarPerm extractEntry sandbox/ring2/pub
+544 silly gunzTarPerm extractEntry sandbox/ring2/pub~
+545 silly gunzTarPerm extractEntry sandbox/ring2/sec
+546 silly gunzTarPerm extractEntry sandbox/ring2/trust
+547 silly gunzTarPerm extractEntry sandbox/v1.key
+548 silly gunzTarPerm extractEntry sandbox/v1.revoke
+549 silly gunzTarPerm extractEntry Makefile
+550 silly gunzTarPerm extractEntry json/keyset.json
+551 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/package.json
+552 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/.npmignore
+553 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/README.md
+554 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/LICENSE
+555 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/CHANGELOG.md
+556 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/Makefile
+557 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/colgrep.js
+558 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/err.js
+559 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/gpg.js
+560 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/index.js
+561 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/keyring.js
+562 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/main.js
+563 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/parse.js
+564 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/lib/stream.js
+565 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/colgrep.iced
+566 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/err.iced
+567 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/gpg.iced
+568 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/index.iced
+569 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/keyring.iced
+570 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/main.iced
+571 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/src/parse.iced
+572 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/colgrep.iced
+573 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/gpg.iced
+574 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/index.iced
+575 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/keyring.iced
+576 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/files/parse.iced
+577 silly gunzTarPerm extractEntry node_modules/gpg-wrapper/test/run.iced
+578 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/package.json
+579 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/.npmignore
+580 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/README
+581 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/LICENSE
+582 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/register.js
+583 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/UPDATING.md
+584 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/CNAME
+585 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/iced.md
+586 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/browser.js
+587 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/helpers.js
+588 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/iced.js
+589 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/icedlib.js
+590 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/grammar.js
+591 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/lexer.js
+592 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/nodes.js
+593 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/optparse.js
+594 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/parser.js
+595 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/register.js
+596 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/extensions.js
+597 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/repl.js
+598 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/command.js
+599 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/rewriter.js
+600 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/coffee-script.js
+601 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/scope.js
+602 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/cake.js
+603 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/sourcemap.js
+604 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/lib/coffee-script/index.js
+605 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/CONTRIBUTING.md
+606 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/bin/cake
+607 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/bin/coffee
+608 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/package.json
+609 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/.npmignore
+610 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/README
+611 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/LICENSE
+612 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/docco.js
+613 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/bin/docco
+614 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/docco.css
+615 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/docco.jst
+616 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.eot
+617 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.eot
+618 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.woff
+619 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.eot
+620 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.ttf
+621 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-light.woff
+622 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/aller-bold.ttf
+623 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.ttf
+624 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/fleurons.woff
+625 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.eot
+626 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.ttf
+627 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/fonts/novecento-bold.woff
+628 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/images/gray.png
+629 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/classic/public/stylesheets/normalize.css
+630 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/languages.json
+631 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/docco.css
+632 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/docco.jst
+633 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.eot
+634 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.eot
+635 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.woff
+636 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.eot
+637 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.ttf
+638 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-light.woff
+639 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/aller-bold.ttf
+640 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.ttf
+641 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/fleurons.woff
+642 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.eot
+643 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.ttf
+644 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/fonts/novecento-bold.woff
+645 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/images/gray.png
+646 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/linear/public/stylesheets/normalize.css
+647 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/docco.css
+648 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/docco.jst
+649 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.eot
+650 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.ttf
+651 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-bold.woff
+652 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.eot
+653 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.ttf
+654 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/aller-light.woff
+655 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.eot
+656 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.ttf
+657 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/fonts/novecento-bold.woff
+658 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/resources/parallel/public/stylesheets/normalize.css
+659 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/c/c.html
+660 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/c/docco.css
+661 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/coffee-script/coffee-script.html
+662 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/coffee-script/docco.css
+663 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/javascript/docco.css
+664 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/javascript/javascript.html
+665 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/python/docco.css
+666 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/python/python.html
+667 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/ruby/docco.css
+668 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/ruby/ruby.html
+669 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/tex/docco.css
+670 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/comments_test/tex/tex.html
+671 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_css/pagelet.css
+672 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_css/tests.html
+673 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_jst/docco.css
+674 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/test/data/custom_jst/tests.html
+675 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/package.json
+676 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/README.md
+677 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/LICENSE
+678 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/highlight.js
+679 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/index.js
+680 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/1c.js
+681 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/java.js
+682 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/javascript.js
+683 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/json.js
+684 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ini.js
+685 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lisp.js
+686 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/livecodeserver.js
+687 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lua.js
+688 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/makefile.js
+689 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/markdown.js
+690 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/http.js
+691 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mathematica.js
+692 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/haskell.js
+693 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/matlab.js
+694 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/handlebars.js
+695 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mel.js
+696 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/haml.js
+697 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/mizar.js
+698 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/go.js
+699 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/nginx.js
+700 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/glsl.js
+701 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/objectivec.js
+702 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/fsharp.js
+703 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ocaml.js
+704 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/fix.js
+705 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/oxygene.js
+706 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/erlang.js
+707 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/parser3.js
+708 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/erlang-repl.js
+709 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/perl.js
+710 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/dos.js
+711 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/php.js
+712 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/django.js
+713 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/profile.js
+714 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/diff.js
+715 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/python.js
+716 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/delphi.js
+717 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/r.js
+718 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/d.js
+719 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rib.js
+720 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/css.js
+721 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rsl.js
+722 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cs.js
+723 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ruby.js
+724 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cpp.js
+725 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/ruleslanguage.js
+726 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/coffeescript.js
+727 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/rust.js
+728 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/cmake.js
+729 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scala.js
+730 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/clojure.js
+731 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scilab.js
+732 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/brainfuck.js
+733 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/scss.js
+734 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/bash.js
+735 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/smalltalk.js
+736 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/axapta.js
+737 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/sql.js
+738 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/avrasm.js
+739 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/tex.js
+740 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/autohotkey.js
+741 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vala.js
+742 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/asciidoc.js
+743 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vbnet.js
+744 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/applescript.js
+745 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vbscript.js
+746 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/apache.js
+747 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/vhdl.js
+748 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/actionscript.js
+749 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/xml.js
+750 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/highlight.js/lib/languages/lasso.js
+751 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/package.json
+752 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/index.js
+753 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/commander/Readme.md
+754 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/package.json
+755 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/.npmignore
+756 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/README.md
+757 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/LICENSE
+758 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/CHANGELOG.md
+759 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/copy.js
+760 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/create.js
+761 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/index.js
+762 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/json.js
+763 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/mkdir.js
+764 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/output.js
+765 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/lib/remove.js
+766 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/package.json
+767 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/.npmignore
+768 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/README.md
+769 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/LICENSE
+770 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/CHANGELOG.md
+771 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/jsonfile/lib/jsonfile.js
+772 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/package.json
+773 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/.npmignore
+774 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/README.md
+775 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/.travis.yml
+776 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/LICENSE.md
+777 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/bin/ncp
+778 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/lib/ncp.js
+779 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/ncp-test.js
+780 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/a
+781 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/b
+782 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/c
+783 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/d
+784 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/e
+785 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/f
+786 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/a
+787 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/b
+788 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/package.json
+789 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/README.md
+790 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/LICENSE
+791 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/bin.js
+792 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/rimraf.js
+793 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/AUTHORS
+794 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/test-async.js
+795 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/test-sync.js
+796 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/run.sh
+797 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/fs-extra/node_modules/rimraf/test/setup.sh
+798 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/package.json
+799 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/.npmignore
+800 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/README.md
+801 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/LICENSE
+802 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/index.js
+803 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/Makefile
+804 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/.travis.yml
+805 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/component.json
+806 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/lib/marked.js
+807 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/man/marked.1
+808 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/marked/bin/marked
+809 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/package.json
+810 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/README.md
+811 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/LICENSE
+812 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/underscore-min.js
+813 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/docco/node_modules/underscore/underscore.js
+814 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/package.json
+815 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/.npmignore
+816 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/LICENSE
+817 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/index.js
+818 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/.travis.yml
+819 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/examples/pow.js
+820 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/readme.markdown
+821 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/chmod.js
+822 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/perm.js
+823 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/perm_sync.js
+824 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/race.js
+825 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/mkdirp.js
+826 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/return.js
+827 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/return_sync.js
+828 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/root.js
+829 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/sync.js
+830 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/umask.js
+831 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/clobber.js
+832 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/umask_sync.js
+833 silly gunzTarPerm extractEntry node_modules/iced-coffee-script/node_modules/mkdirp/test/rel.js
+834 silly gunzTarPerm extractEntry node_modules/iced-data-structures/package.json
+835 silly gunzTarPerm extractEntry node_modules/iced-data-structures/.npmignore
+836 silly gunzTarPerm extractEntry node_modules/iced-data-structures/README.md
+837 silly gunzTarPerm extractEntry node_modules/iced-data-structures/LICENSE
+838 silly gunzTarPerm extractEntry node_modules/iced-data-structures/Makefile
+839 silly gunzTarPerm extractEntry node_modules/iced-data-structures/lib/index.js
+840 silly gunzTarPerm extractEntry node_modules/iced-data-structures/lib/list.js
+841 silly gunzTarPerm extractEntry node_modules/iced-data-structures/src/index.iced
+842 silly gunzTarPerm extractEntry node_modules/iced-data-structures/src/list.iced
+843 silly gunzTarPerm extractEntry node_modules/iced-error/package.json
+844 silly gunzTarPerm extractEntry node_modules/iced-error/.npmignore
+845 silly gunzTarPerm extractEntry node_modules/iced-error/README.md
+846 silly gunzTarPerm extractEntry node_modules/iced-error/index.js
+847 silly gunzTarPerm extractEntry node_modules/iced-error/Makefile
+848 silly gunzTarPerm extractEntry node_modules/iced-error/index.iced
+849 silly gunzTarPerm extractEntry node_modules/iced-error/index.map
+850 silly gunzTarPerm extractEntry node_modules/iced-logger/package.json
+851 silly gunzTarPerm extractEntry node_modules/iced-logger/.npmignore
+852 silly gunzTarPerm extractEntry node_modules/iced-logger/README.md
+853 silly gunzTarPerm extractEntry node_modules/iced-logger/LICENSE
+854 silly gunzTarPerm extractEntry node_modules/iced-logger/index.js
+855 silly gunzTarPerm extractEntry node_modules/iced-logger/Makefile
+856 silly gunzTarPerm extractEntry node_modules/iced-logger/index.iced
+857 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/package.json
+858 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/colors.js
+859 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/example.js
+860 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/test.js
+861 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/MIT-LICENSE.txt
+862 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/ReadMe.md
+863 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/example.html
+864 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/themes/winston-dark.js
+865 silly gunzTarPerm extractEntry node_modules/iced-logger/node_modules/colors/themes/winston-light.js
+866 silly gunzTarPerm extractEntry node_modules/iced-spawn/package.json
+867 silly gunzTarPerm extractEntry node_modules/iced-spawn/.npmignore
+868 silly gunzTarPerm extractEntry node_modules/iced-spawn/README.md
+869 silly gunzTarPerm extractEntry node_modules/iced-spawn/LICENSE
+870 silly gunzTarPerm extractEntry node_modules/iced-spawn/CHANGELOG.md
+871 silly gunzTarPerm extractEntry node_modules/iced-spawn/Makefile
+872 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/cmd.js
+873 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/main.js
+874 silly gunzTarPerm extractEntry node_modules/iced-spawn/lib/stream.js
+875 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/cmd.iced
+876 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/main.iced
+877 silly gunzTarPerm extractEntry node_modules/iced-spawn/src/stream.iced
+878 silly gunzTarPerm extractEntry node_modules/iced-spawn/test/files/0_basics.iced
+879 silly gunzTarPerm extractEntry node_modules/iced-spawn/test/run.iced
+880 silly gunzTarPerm extractEntry node_modules/iced-utils/package.json
+881 silly gunzTarPerm extractEntry node_modules/iced-utils/.npmignore
+882 silly gunzTarPerm extractEntry node_modules/iced-utils/README.md
+883 silly gunzTarPerm extractEntry node_modules/iced-utils/Makefile
+884 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/fs.js
+885 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/getopt.js
+886 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/lock.js
+887 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/main.js
+888 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/spawn.js
+889 silly gunzTarPerm extractEntry node_modules/iced-utils/lib/util.js
+890 silly gunzTarPerm extractEntry node_modules/iced-utils/src/fs.iced
+891 silly gunzTarPerm extractEntry node_modules/iced-utils/src/getopt.iced
+892 silly gunzTarPerm extractEntry node_modules/iced-utils/src/lock.iced
+893 silly gunzTarPerm extractEntry node_modules/iced-utils/src/main.iced
+894 silly gunzTarPerm extractEntry node_modules/iced-utils/src/spawn.iced
+895 silly gunzTarPerm extractEntry node_modules/iced-utils/src/util.iced
+896 silly gunzTarPerm extractEntry node_modules/pgp-utils/package.json
+897 silly gunzTarPerm extractEntry node_modules/pgp-utils/.npmignore
+898 silly gunzTarPerm extractEntry node_modules/pgp-utils/README.md
+899 silly gunzTarPerm extractEntry node_modules/pgp-utils/LICENSE
+900 silly gunzTarPerm extractEntry node_modules/pgp-utils/Makefile
+901 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/armor.js
+902 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/main.js
+903 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/userid.js
+904 silly gunzTarPerm extractEntry node_modules/pgp-utils/lib/util.js
+905 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/armor.iced
+906 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/main.iced
+907 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/userid.iced
+908 silly gunzTarPerm extractEntry node_modules/pgp-utils/src/util.iced
+909 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/t1.iced
+910 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/t2.iced
+911 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/files/userid.iced
+912 silly gunzTarPerm extractEntry node_modules/pgp-utils/test/run.iced
+913 silly gunzTarPerm extractEntry node_modules/pgp-utils/x
+914 silly gunzTarPerm extractEntry node_modules/pgp-utils/y
+915 silly gunzTarPerm extractEntry node_modules/progress/package.json
+916 silly gunzTarPerm extractEntry node_modules/progress/.npmignore
+917 silly gunzTarPerm extractEntry node_modules/progress/index.js
+918 silly gunzTarPerm extractEntry node_modules/progress/History.md
+919 silly gunzTarPerm extractEntry node_modules/progress/Makefile
+920 silly gunzTarPerm extractEntry node_modules/progress/Readme.md
+921 silly gunzTarPerm extractEntry node_modules/progress/lib/node-progress.js
+922 silly lockFile 6f51981b--keybase-installer-0-1-8-package tar:///home/justin/.npm/keybase-installer/0.1.8/package
+923 silly lockFile 6f51981b--keybase-installer-0-1-8-package tar:///home/justin/.npm/keybase-installer/0.1.8/package
+924 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+925 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+926 verbose chmod /home/justin/.npm/keybase-installer/0.1.8/package.tgz 644
+927 verbose chown /home/justin/.npm/keybase-installer/0.1.8/package.tgz [ 1000, 1000 ]
+928 silly lockFile a227ed14-ller-keybase-installer-0-1-8-tgz https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz
+929 silly lockFile a227ed14-ller-keybase-installer-0-1-8-tgz https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz
+930 silly lockFile a63e7e9c-keybase-installer-0-1-8 keybase-installer@0.1.8
+931 silly lockFile a63e7e9c-keybase-installer-0-1-8 keybase-installer@0.1.8
+932 silly lockFile 248ae426-keybase-installer keybase-installer@
+933 silly lockFile 248ae426-keybase-installer keybase-installer@
+934 silly resolved [ { name: 'keybase-installer',
+934 silly resolved     version: '0.1.8',
+934 silly resolved     description: 'Trusted installer/updater for keybase',
+934 silly resolved     scripts: { test: 'make test' },
+934 silly resolved     bin: { 'keybase-installer': './bin/main.js' },
+934 silly resolved     main: './lib/top.js',
+934 silly resolved     repository: { type: 'git', url: 'git://github.com/keybase/node-installer' },
+934 silly resolved     engines: { node: '>=0.10.0' },
+934 silly resolved     engineStrict: true,
+934 silly resolved     dependencies:
+934 silly resolved      { 'gpg-wrapper': '>=0.0.32',
+934 silly resolved        'iced-coffee-script': '~1.7.1-a',
+934 silly resolved        'iced-data-structures': '~0.0.5',
+934 silly resolved        'iced-error': '~0.0.8',
+934 silly resolved        'iced-logger': '~0.0.1',
+934 silly resolved        'iced-spawn': '>=0.0.3',
+934 silly resolved        'iced-utils': '~0.1.9',
+934 silly resolved        'pgp-utils': '>=0.0.8',
+934 silly resolved        progress: '~1.1.3' },
+934 silly resolved     bundleDependencies:
+934 silly resolved      [ 'gpg-wrapper',
+934 silly resolved        'iced-coffee-script',
+934 silly resolved        'iced-data-structures',
+934 silly resolved        'iced-error',
+934 silly resolved        'iced-logger',
+934 silly resolved        'iced-spawn',
+934 silly resolved        'iced-utils',
+934 silly resolved        'pgp-utils',
+934 silly resolved        'progress' ],
+934 silly resolved     author: { name: 'Maxwell Krohn', email: 'themax@gmail.com' },
+934 silly resolved     license: 'BSD-3-Clause',
+934 silly resolved     bugs: { url: 'https://github.com/keybase/node-installer/issues' },
+934 silly resolved     readme: 'node-installer\n==============\n\nAn installer/updater for the node client.\n\n### Issue tracking & reporting\n\nThe [keybase-issues](https://github.com/keybase/keybase-issues) repo is a consolidated issue repo for the whole project. We\'ll organize and tag issues there.\n',
+934 silly resolved     readmeFilename: 'README.md',
+934 silly resolved     homepage: 'https://github.com/keybase/node-installer',
+934 silly resolved     _id: 'keybase-installer@0.1.8',
+934 silly resolved     dist: { shasum: 'ce6b1218be58c23f410719d0ae6ad826c1327c9b' },
+934 silly resolved     _from: 'keybase-installer@',
+934 silly resolved     _resolved: 'https://registry.npmjs.org/keybase-installer/-/keybase-installer-0.1.8.tgz' } ]
+935 info install keybase-installer@0.1.8 into /usr/lib
+936 info installOne keybase-installer@0.1.8
+937 info /usr/lib/node_modules/keybase-installer unbuild
+938 verbose tar unpack /home/justin/.npm/keybase-installer/0.1.8/package.tgz
+939 silly lockFile d4d75eda-b-node-modules-keybase-installer tar:///usr/lib/node_modules/keybase-installer
+940 verbose lock tar:///usr/lib/node_modules/keybase-installer /home/justin/.npm/d4d75eda-b-node-modules-keybase-installer.lock
+941 silly lockFile 63aeff4c-base-installer-0-1-8-package-tgz tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz
+942 verbose lock tar:///home/justin/.npm/keybase-installer/0.1.8/package.tgz /home/justin/.npm/63aeff4c-base-installer-0-1-8-package-tgz.lock
+943 silly gunzTarPerm modes [ '755', '644' ]
+944 error Error: EACCES, mkdir '/usr/lib/node_modules/keybase-installer'
+944 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/keybase-installer']
+944 error   errno: 3,
+944 error   code: 'EACCES',
+944 error   path: '/usr/lib/node_modules/keybase-installer',
+944 error   fstream_type: 'Directory',
+944 error   fstream_path: '/usr/lib/node_modules/keybase-installer',
+944 error   fstream_class: 'DirWriter',
+944 error   fstream_stack:
+944 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+944 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+944 error      'Object.oncomplete (fs.js:107:15)' ] }
+945 error Please try running this command again as root/Administrator.
+946 error System Linux 3.5.0-40-generic
+947 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "keybase-installer"
+948 error cwd /home/justin/projects/ruby_radiance_dashboard
+949 error node -v v0.10.22
+950 error npm -v 1.3.14
+951 error path /usr/lib/node_modules/keybase-installer
+952 error fstream_path /usr/lib/node_modules/keybase-installer
+953 error fstream_type Directory
+954 error fstream_class DirWriter
+955 error code EACCES
+956 error errno 3
+957 error stack Error: EACCES, mkdir '/usr/lib/node_modules/keybase-installer'
+958 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+958 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+958 error fstream_stack Object.oncomplete (fs.js:107:15)
+959 verbose exit [ 3, true ]

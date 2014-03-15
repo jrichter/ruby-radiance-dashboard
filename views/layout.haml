@@ -1,0 +1,16 @@
+%head
+  %meta{'charset' => 'utf-8'}/
+  %title= @site_title
+  %meta{'name' => 'author', 'content' => ''}/
+  %link{:rel => :stylesheet, :type => :"text/css", :href => "#{stylesheet_path('app')}" }
+  %section.container
+    %h1= @title
+    %h2= @subtitle
+    = yield
+
+
+  %script{:type => "text/javascript", :src => "#{javascript_path('jquery-2.1.0')}" }
+  %script{:type => :"text/javascript", :src => "#{javascript_path('underscore')}" }
+  %script{:type => :"text/javascript", :src => "#{javascript_path('backbone')}" }
+  %script{:type => :"text/javascript", :src => "#{javascript_path('highcharts')}" }
+  %script{:type => :"text/javascript", :src => "#{javascript_path('app')}" }

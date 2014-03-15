@@ -1,0 +1,25 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: #999;
+$bg-accent: #262626;
+$bg-accent-red: #211111;
+$text-red: #821414;
+$text-blue: #0C4E4E;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $bg-color;
+}
+
+h1 {
+  color: $text-red;
+  font-size: 125%;
+}
+
+h2 {
+  color: $text-blue;
+  font-size: 105%;
+}
+
+
